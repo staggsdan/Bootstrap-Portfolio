@@ -12,19 +12,17 @@
 <div class="container">
     <div id="toprow" class="row">
         
-        <div id="logo" class="card" class="col-sm">
+        <!-- I don't understand why I'm doing a col-8 and a col-4, but the elements are still side by side. I'm doing it exactly the way it is in the example. -->
+
+        <div id="logo" class="card" class="col-8">
                 <div class="card-body" >
                   Dan Staggs
                 </div>
 
         </div>
         <div id="navigation" class="row">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light" class="col-sm">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" class="col-4">
+                        
                           <div class="navbar-nav">
                             <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
                             <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
@@ -35,18 +33,28 @@
                       </nav>
         </div>
     </div>
+</div>  
+
+    <div id="subhead" class="card">
+        <div class="card-body">
+            About Me
+        </div>
+    </div>
+
+<!-- similar to the header, I just genuinely don't understand why the text is going over my photo. In my understanding the .bio-photo column is col-4 and should take the first third of the page, and the .bio-text colum is col-8 and should take the remaining one-third. It's also my understanding that it should wrap around. What am I doing wrongs?  -->
+
+<div class="container">
+    <div id="body-row" class="row">
+        <div id="bio-photo" class="col-4">
+            <img src="./images/me playing bass.jpg" alt="Photo of Porfolio owner">
+        </div>
+        <div id="bio-text" class="col-8"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, consequatur. Impedit numquam quo nisi excepturi quia aspernatur culpa dignissimos possimus accusantium assumenda, aut expedita, dolore aperiam, similique dolor quibusdam eos.
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga atque similique nulla voluptates expedita iure quae nihil soluta molestias unde repudiandae blanditiis, ut culpa delectus amet eligendi doloribus repellendus optio.
+        </div>
+    </div>
 </div>    
-    <div id="subhead">
-
-    </div>
-    <div id="body-row">
-        <div id="bio-photo">
-
-        </div>
-        <div id="bio-text"> 
-
-        </div>
-    </div>
     
     <div id="foot" class="card">
             <div class="card-body">

@@ -10,20 +10,60 @@
 </head>
 <body>
     
-    <div id="toprow">
-        <div id="logo">
-                
-        </div>
-        <div id="navigation">
-                
-        </div>
-        </div>
+        <div class="container">
+                <div id="toprow" class="row">
+                    
+                    <!-- I don't understand why I'm doing a col-8 and a col-4, but the elements are still side by side. I'm doing it exactly the way it is in the example. -->
             
-        <div id="subhead">
-                
-        </div>
+                    <div id="logo" class="card" class="col-8">
+                            <div class="card-body" >
+                              Dan Staggs
+                            </div>
+            
+                    </div>
+                    <div id="navigation" class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light" class="col-4">
+                                    
+                                      <div class="navbar-nav">
+                                        <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                                        <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                                        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                                        <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                                      </div>
+                                    </div>
+                                  </nav>
+                    </div>
+                </div>
+            </div>  
+            
+                <div id="subhead" class="card">
+                    <div class="card-body">
+                        Portfolio
+                    </div>
+                </div>
         
-        <div id="form">
+        <!-- I'm not sure why these are loading in staggered and disparate. Bootstraps is way more frustrating than our small class activity indicated. -->
+        <div class="container" id="portfolio">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="./images/ten high 45.jpg" alt="A 7-inch record by the band Ten High">
+                </div>
+                <div class="col-sm">
+                    <img src="./images/bow live.jpg" alt="Chicago band Bow & Spear playing live">
+                </div>
+            <div class="row">
+                <div class="col-sm">
+                    <img src="images/my gear.jpg" alt="My guitar amplifiers and one of my guitars">
+                </div>
+                <div class="col-sm">
+                    <img src="./images/modcon LP.jpg" alt="A 12'' record by Nashville band Modern Convenience">
+                </div>
+            </div>
+                
+                
+            
+
+            </div>
         
         </div>
         

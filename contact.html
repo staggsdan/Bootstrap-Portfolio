@@ -10,20 +10,54 @@
 </head>
 <body>
 
-    <div id="toprow">
-        <div id="logo">
-        
-        </div>
-        <div id="navigation">
-        
-        </div>
-    </div>
-    
-    <div id="subhead">
-        
-    </div>
+        <div class="container">
+                <div id="toprow" class="row">
+                    
+                    <!-- I don't understand why I'm doing a col-8 and a col-4, but the elements are still side by side. I'm doing it exactly the way it is in the example. -->
+            
+                    <div id="logo" class="card" class="col-8">
+                            <div class="card-body" >
+                              Dan Staggs
+                            </div>
+            
+                    </div>
+                    <div id="navigation" class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light" class="col-4">
+                                    
+                                      <div class="navbar-nav">
+                                        <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                                        <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                                        <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                                        <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                                      </div>
+                                    </div>
+                                  </nav>
+                    </div>
+                </div>
+            </div>  
+            
+                <div id="subhead" class="card">
+                    <div class="card-body">
+                        Contact
+                    </div>
+                </div>
 
     <div id="form">
+            <form>
+                    <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Name:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                          </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address:</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Messages:</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                    </div>
+                  </form>
+                  <button type="submit" class="btn btn-primary">Submit</button>
 
     </div>
 
