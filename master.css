@@ -1,0 +1,12 @@
+#foot{
+    background-color: slategray;
+    text-align: center;
+    color: white;
+    padding: 15px 0 10px 0;
+    font-size: 12px;
+    border-top: #4aaaa5 solid 8px; 
+}
+
+#navigation{
+    float: right;
+}
